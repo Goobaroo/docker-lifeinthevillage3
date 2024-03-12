@@ -12,9 +12,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f 'LITV3-1.19.2-Serverpack-2.7.zip' ]]; then
+if ! [[ -f 'LITV3-1.19.2-Serverpack-2.7a.zip' ]]; then
 	rm -fr config kubejs libraries mods *SERVER.zip forge*.jar
-	curl -Lo 'LITV3-1.19.2-Serverpack-2.7.zip' 'https://edge.forgecdn.net/files/5174/645/LITV3-1.19.2-Serverpack-2.7.zip' && unzip -u -o 'LITV3-1.19.2-Serverpack-2.7.zip' -d /data
+	curl -Lo 'LITV3-1.19.2-Serverpack-2.7a.zip' 'https://edge.forgecdn.net/files/5176/749/LITV3-1.19.2-Serverpack-2.7a.zip' && unzip -u -o 'LITV3-1.19.2-Serverpack-2.7a.zip' -d /data
 	DIR_TEST=$(find . -type d -maxdepth 1 | tail -1 | sed 's/^.\{2\}//g')
 	if [[ $(find . -type d -maxdepth 1 | wc -l) -gt 1 ]]; then
 		cd "${DIR_TEST}"
