@@ -2,9 +2,9 @@
 
 FROM openjdk:17.0.2-jdk-buster
 
-LABEL version="1.13"
+LABEL version="1.19.2"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="LITV3 - 1.13 []"
+LABEL homepage.name="LITV3 - 2.10 [MC1.19.2"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/486/700/637788903766308158.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://Life-in-the-Village-3:25565
